@@ -2,9 +2,9 @@
   <div class="sidebar">
     <button class="burger-icon" @click="toggleMenu">&#9776;</button>
     <ul>
-      <li><h6 class="titulo_app">TO DO APP</h6></li>
-      <li><a href="/">inicio</a></li>
-      <li><a href="/agregar">agregar tarea</a></li>
+      <li><h6 class="titulo_app">MENU</h6></li>
+      <li><a href="/">INICIO</a></li>
+      <li><a href="/agregar">AGENDAR TAREA</a></li>
       <li><a href="/Tareas">MOSTRAR TAREAS</a></li>
       <li><a href="/login">CERRAR SECCION</a></li>
     </ul>
@@ -18,9 +18,9 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 150px;
+  width: 200px;
   background-image: url(../assets/fondo.png);
-  padding: 20px;
+  padding: 25px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@
 
 ul {
   list-style: none;
-  margin: 0;
+  margin: 12PX;
   padding: 0;
 }
 
@@ -54,7 +54,7 @@ a  {
 a:hover {
   font-family: 'Istok Web', sans-serif;
   color: blue;
-  text-transform: uppercase;
+  
 }
 .titulo_app  {
   color: #fff;
