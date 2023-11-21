@@ -69,7 +69,7 @@
 .estilo{
  
   max-width: 45em;
-  background-color: aqua;
+  background-color: #b3e5fc;
   margin-top: 50px;
 }
 </style>

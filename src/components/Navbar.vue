@@ -3,8 +3,7 @@
     <button class="burger-icon" @click="toggleMenu">&#9776;</button>
     <ul>
       <li><h6 class="titulo_app">MENU</h6></li>
-      <li><a href="/">INICIO</a></li>
-      <li><a href="/agregar">AGENDAR TAREA</a></li>
+      <li><a href="/">AGENDAR TAREA</a></li>
       <li><a href="/Tareas">MOSTRAR TAREAS</a></li>
       <li><a href="/login">CERRAR SECCION</a></li>
     </ul>
