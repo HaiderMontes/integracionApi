@@ -1,8 +1,7 @@
 <template>
-  <div class="container card-body">
-
+  <!-- <div class="container card-body"> -->
     <div class="table-responsive-sm container ">
-      <table class="container table color">
+      <table class="container table estilo color">
         <thead>
           <tr>
 
@@ -41,7 +40,7 @@
       </table>
     </div>
 
-  </div>
+  <!-- </div> -->
 
   
 </template>
@@ -51,7 +50,7 @@
 </script>
 
 <style scoped>
-@media (max-width: 770px) {
+@media (max-width: 992px) {
   .boton {
     width: 100%;
     height: auto;
@@ -60,17 +59,18 @@
   }
 }
 @media (max-width: 1120px) {
-  .table {
+  .estilo {
     margin-left: 0%;
-    
+    width: 85%;
+    margin-left: 8%;
   }
 }
-.container {
-  text-align: center;
-  margin-top: 15px;
-}
-.table{
-  margin-left: 7%;
+
+.estilo{
+ 
+  max-width: 45em;
   background-color: aqua;
+  margin-top: 50px;
 }
 </style>
+

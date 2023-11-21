@@ -2,7 +2,7 @@
     <div>
         <Navbar />
         <div class="titulo_tarea"><h1>MOSTRAR TAREAS</h1></div>
-        <Tabla class="container"/>
+        <Tabla/>
         
     </div>
 </template>

@@ -27,7 +27,7 @@
 }
 
 .burger-icon {
-  display: none; /* Ocultar el icono de hamburguesa por defecto en pantallas grandes */
+  display: none; 
   font-size: 24px;
   background-color: transparent;
   color: #fff;
@@ -90,9 +90,7 @@ a:hover {
     flex-direction: column;
   }
 
-  .table-container {
-    display: block; /* Mostrar la tabla en pantallas pequeñas al hacer clic en "Contacto" */
-  }
+  
 }
 </style>
 
