@@ -1,0 +1,24 @@
+<template>
+    <div>
+        <Navbar />
+        <div class="titulo_tarea"><h1>MOSTRAR TAREAS</h1></div>
+        <Tabla class="container"/>
+        
+    </div>
+</template>
+
+<script setup lang="ts">
+import Navbar from '@/components/Navbar.vue';
+import Tabla from '@/components/Tabla.vue';
+
+
+</script>
+
+<style scoped>
+.titulo_tarea{
+    text-align: center;
+    background-image: url(../assets/fondo.png);
+    margin: 4px;
+    color: white;
+}
+</style>
