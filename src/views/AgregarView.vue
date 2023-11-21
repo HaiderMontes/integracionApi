@@ -4,7 +4,7 @@
     </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import Formulario from '@/components/Formulario.vue';
 
 

@@ -4,6 +4,7 @@
     <ul>
       <li><h6 class="titulo_app">TO DO APP</h6></li>
       <li><a href="/">inicio</a></li>
+      <li><a href="/agregar">agregar tarea</a></li>
       <li><a href="/Tareas">MOSTRAR TAREAS</a></li>
       <li><a href="/login">CERRAR SECCION</a></li>
     </ul>
