@@ -1,6 +1,6 @@
 <template>
     <div>
-        escribe
+      LOGIN  
     </div>
 </template>
 
