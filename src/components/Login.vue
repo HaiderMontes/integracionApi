@@ -1,7 +1,21 @@
 <template>
-    <div>
-      LOGIN  
+    <div class="container">
+      <div class="login-register">
+      <form action="" class="log-in-form">
+      <h2 class="tittle">login</h2>
+      <div class="input-field">
+           <i class="fas fa-user"></i>
+           <input type="text" placeholder="Username">
+      </div>
+      <div class="input-field">
+           <i class="fas fa-lock"></i>
+           <input type="password" placeholder="password">
+      </div>
+       </form>
     </div>
+    <div class="panels-container"></div>
+    </div>
+
 </template>
 
 <script lang="ts">
