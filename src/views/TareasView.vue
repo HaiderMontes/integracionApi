@@ -5,7 +5,7 @@
             <div class="titulo_tarea">
                 <h1>MOSTRAR TAREAS</h1>
             </div>
-            <Tabla />
+            <Mostrar />
 
         </div>
     </div>
@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 import Navbar from '@/components/Navbar.vue';
-import Tabla from '@/components/Tabla.vue';
+import Mostrar from '@/components/Mostrar.vue';
 
 
 </script>
@@ -22,12 +22,17 @@ import Tabla from '@/components/Tabla.vue';
 .titulo_tarea {
     text-align: center;
     background-image: url(../assets/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 4px;
     color: white;
 }
-.body{
+
+.body {
     width: 100%;
-    height: 800px;
+    height: 735px;
     background-color: #9fa8da;
 }
 </style>

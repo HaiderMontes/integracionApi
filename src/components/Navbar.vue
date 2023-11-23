@@ -19,6 +19,10 @@
   height: 100%;
   width: 200px;
   background-image: url(../assets/fondo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   padding: 25px;
   box-sizing: border-box;
   display: flex;

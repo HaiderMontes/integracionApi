@@ -2,11 +2,6 @@
   <!-- <div class="container card-body"> -->
     <div class="table-responsive-sm container ">
       <table class="container table estilo color">
-        <thead>
-          <tr>
-
-          </tr>
-        </thead>
         <tbody>
           <tr>
             <div>
@@ -21,6 +16,7 @@
               </td>
             </div>
           </tr>
+          
           <tr class="">
             <div>
               <td scope="col">
