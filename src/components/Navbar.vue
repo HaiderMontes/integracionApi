@@ -2,17 +2,17 @@
   <div class="sidebar">
     <button class="burger-icon" @click="toggleMenu">&#9776;</button>
     <ul>
-      <li><h6 class="titulo_app">MENU</h6></li>
-      <li><a href="/">AGENDAR TAREA</a></li>
-      <li><a href="/Tareas">MOSTRAR TAREAS</a></li>
-      <li><a href="/login">CERRAR SECCION</a></li>
+      <li><h6 class="mb-3 titulo_app">MENU</h6></li>
+      <li class="bor"><a href="/">AGENDAR TAREA</a></li>
+      <li class="bor"><a href="/Tareas">MOSTRAR TAREAS</a></li>
+      <li class="bor"><a href="/login">CERRAR SECCION</a></li>
     </ul>
   </div>
 </template>
 
 <style>
 .sidebar {
-  margin: 4px;
+  margin-top: 4px;
   position: absolute;
   top: 0;
   left: 0;
@@ -23,7 +23,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 25px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -45,7 +44,18 @@ ul {
 }
 
 li {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  border-bottom: 1px solid #fff; 
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-bottom: 1px solid #fff;
+}
+.bor {
+  /* margin-bottom: 10px; */
+  border-bottom: 1px solid #fff; 
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #fff;
 }
 
 a  {
@@ -54,10 +64,8 @@ a  {
   cursor: pointer;
  
 }
-a:hover {
-  font-family: 'Istok Web', sans-serif;
-  color: blue;
-  
+a:hover{
+  color: aqua;
 }
 .titulo_app  {
   color: #fff;
@@ -68,8 +76,8 @@ a:hover {
 
 
 .table-container {
-  display: none; /* Oculta la tabla por defecto */
-  margin-top: 20px; /* Ajusta el margen para evitar la superposición con el menú */
+  display: none; 
+  margin-top: 20px; 
 }
 
 @media (max-width: 1120px) {
@@ -80,12 +88,12 @@ a:hover {
   }
 
   .burger-icon {
-    display: block; /* Mostrar el icono de hamburguesa en pantallas pequeñas */
-    align-self: flex-end; /* Alinear el icono a la derecha en pantallas pequeñas */
+    display: block;
+    align-self: flex-end; 
   }
 
   ul {
-    display: none; /* Ocultar la lista en pantallas pequeñas por defecto */
+    display: none; 
   }
 
   ul.show {

@@ -32,6 +32,6 @@ import Formulario from '@/components/Formulario.vue';
 .body {
     width: 100%;
     height: 735px;
-    background-color: #9fa8da;
+    /* background-color: #9fa8da; */
 }
 </style>

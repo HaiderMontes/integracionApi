@@ -33,6 +33,6 @@ import Mostrar from '@/components/Mostrar.vue';
 .body {
     width: 100%;
     height: 735px;
-    background-color: #9fa8da;
+
 }
 </style>

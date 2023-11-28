@@ -22,6 +22,7 @@
 }
 .input1{
     width: 550px;
+    background-color: #d9d9d9;
 }
 @media (max-width: 1120px) {
   .formulario {
@@ -41,6 +42,7 @@
 .input2{
     width: 1200px;
     margin-top: 12px;
+    background-color: #d9d9d9;
 }
 
 @media (max-width: 1466px) {
