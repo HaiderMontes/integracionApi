@@ -3,9 +3,9 @@
     <button class="burger-icon" @click="toggleMenu">&#9776;</button>
     <ul>
       <li><h6 class="mb-3 titulo_app">MENU</h6></li>
-      <li class="bor"><a href="/">AGENDAR TAREA</a></li>
+      <li class="bor"><a href="/formulario">AGENDAR TAREA</a></li>
       <li class="bor"><a href="/Tareas">MOSTRAR TAREAS</a></li>
-      <li class="bor"><a href="/login">CERRAR SECCION</a></li>
+      <li class="bor"><a href="/">CERRAR SECCION</a></li>
     </ul>
   </div>
 </template>
