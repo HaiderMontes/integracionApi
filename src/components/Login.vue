@@ -78,7 +78,11 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'poppins', sans-serif;
-
+     background-image: url(../assets/fondo.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
 }
 
 .body {
@@ -86,24 +90,26 @@
      align-items: center;
      justify-content: center;
      min-height: 100vh;
-     background-image: url(../assets/fondo.png);
+     
+     /*  background-image: url(../assets/fondo.png);
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     background-attachment: fixed;
+     background-attachment: fixed; */
 }
 
 .container {
      position: relative;
      width: 70vw;
      height: 80vh;
-     background-image: url(../assets/fondo.png);
+     /* background-image: url(../assets/fondo.png); */
      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
      overflow: hidden;
-     background-position: center;
+     /*
+      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     background-attachment: fixed;
+     background-attachment: fixed; */
 
 }
 
@@ -114,14 +120,14 @@
      left: -50%;
      width: 100%;
      height: 100%;
-     background-image: url(../assets/fondo.png);
+     /* background-image: url(../assets/fondo.png); */
      z-index: 6;
      transform: translateX(100%);
      transition: 1s ease-in-out;
-     background-position: center;
+     /* background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
-     background-attachment: fixed; 
+     background-attachment: fixed;  */
 
 }
 
