@@ -14,13 +14,14 @@
                               <input type="password" placeholder="password">
                          </div>
 
-               <button @click="toggleForm" type="button" class="boton btn btn-outline" id="sig-in-btn">STAR</button>
+               <!-- <button type="button" class= >STAR</button> -->
+               <a class="p-2 boton btn btn-outline" href="/formulario" role="button">ENTER</a>
              </form>
              <form v-else action="" class="separador sign-up-form">
                <h2 class="tittle">Sign up</h2>
                <div class="sinput-field">
                               <i class="fas fa-user"></i>
-                              <input class=" color" type="text" placeholder="Username">
+                              <input type="text" placeholder="Username">
                          </div>
                          <div class="input-field">
                               <i class="fas fa-lock"></i>
@@ -35,7 +36,7 @@
                               <input type="text" placeholder="Email">
                          </div>
                          
-               <button @click="toggleForm" type="button" class="btn btn-outline" id="sig-up-btn">Sign Up</button>
+               <button @click="toggleForm" type="button" class="btn btn-outline" id="sig-up-btn">check in</button>
              </form>
            </div>
            <div class="panel-container" :class="{ 'panel-left': !isSignInForm, 'panel-right': isSignInForm }">
@@ -48,6 +49,7 @@
                <!-- Contenido del panel derecho para Sign Up -->
                <p class="tcolor">Una buena vida se basa en <br> ser un buen gestor del <br> tiempo.</p>
                <button @click="toggleForm" type="button" class="btn btn btn-outline" id="sig-up-btn">STAR</button>
+               
              </div>
            </div>
          </div>
@@ -117,6 +119,7 @@
    
    .form-left {
      order: 1;
+     border-right: 1px solid #fff;
    }
    
    .form-right {
@@ -124,6 +127,7 @@
      }
      .panel-right {
        order: 1;
+       border-right: 1px solid #fff;
      }
    
    .panel-left {
@@ -154,15 +158,7 @@
      margin: 100px;
      
    }
-   .separar{
-    border-left: 1px solid #fff;
-   }
-
-   .separador{
-    border-right: 1px solid #fff;
-   }
-
-  
+   
    .tittle{
     border-bottom: 1px solid #fff;
     margin: 30px;
@@ -181,8 +177,8 @@
       margin-left: 150px;
       width: 100px;
       height: 40px;
+      margin-top: 20px;
       
     }
-   
    
    </style>
