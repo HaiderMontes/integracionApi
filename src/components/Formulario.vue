@@ -2,9 +2,9 @@
     <div class=" formulario mt-5 " >
         <form>
             
-            <input class="input1 form-control" type="text" placeholder="titulo de la tarea">
-            <input class="input2 form-control" type="text" placeholder="Info de la tarea">
-            <input class="input2 form-control" type="text" placeholder="Datos de la tarea">
+            <input class="input1 form-control" type="text" placeholder="Titulo de la tarea">
+            <input class="input2 form-control" type="text" placeholder="Descripcion de la tareas">
+            <input class="input2 form-control" type="text" placeholder="estado la tarea">
             <input class="input2 form-control" type="date" >
             
         </form>
