@@ -5,7 +5,7 @@
       <li><h6 class="mb-3 titulo_app">MENU</h6></li>
       <li class="bor"><a href="/formulario">AGENDAR TAREA</a></li>
       <li class="bor"><a href="/Tareas">MOSTRAR TAREAS</a></li>
-      <li class="bor"><a href="/">CERRAR SECCION</a></li>
+      <li class="bor"><a href="/">CERRAR SESION</a></li>
     </ul>
   </div>
 </template>
